@@ -1,0 +1,24 @@
+[project]
+name = "2304-autocards"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Yasin <ytatar9@googlemail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+postinstall = "python -m pip install -e . --no-deps"
+
+[dependencies]
+python = "3.11.*"
+rich = ">=13.7.1,<13.8"
+click = ">=8.1.7,<8.2"
+genanki = ">=0.13.1,<0.14"
+pydantic = ">2"
+openai = ">=1.34.0,<1.35"
+pypdf = ">=4.1.0,<4.2"
+pip = ">=24.0,<25"
+tiktoken = ">=0.6.0,<0.7"
+tqdm = ">=4.66.2,<4.67"
+langdetect = ">=1.0.9,<1.1"
+ipython = ">=8.25.0,<8.26"

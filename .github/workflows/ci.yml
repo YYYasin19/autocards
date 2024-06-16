@@ -1,0 +1,51 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+jobs:
+  pre-commit:
+    name: "Pre-commit checks"
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+      - name: Install Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Run pre-commit checks
+        uses: pre-commit/action@v3.0.0
+
+  linux:
+    name: "Tests - ${{ matrix.PYTHON_VERSION }}"
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      matrix:
+        PYTHON_VERSION: [ "3.10" ]
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Install conda environment
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          environment-file: environment.yml
+          cache-downloads: true
+          extra-specs: |
+            python=${{ matrix.PYTHON_VERSION }}
+
+      - name: Run Tests
+        shell: bash -l {0}
+        run: |
+          pip install --no-build-isolation --disable-pip-version-check -e .
+          pytest tests

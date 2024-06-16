@@ -1,0 +1,26 @@
+Welchen Zielen dient die Untersuchungshaft und was sind die
+Voraussetzungen für die Untersuchungshaft?
+Strafrecht Rep2Plus LE 17 - StPO
+108
+• Ziele: 1. soll Anwesenheit des Beschuldigten im Strafverfahren sichern; 2. eine störungsfreie
+Tatsachenermittlung gewährleisten; 3. die Strafvollstreckung ermöglichen
+• Formelle Vss.:
+o Schriftlicher Haftbefehl, § 114 I, II StPO
+o Anordnungsbefugnis: Haftbefehl kann nur Richter erlassen, § 114 I StPO; im
+Ermittlungsverfahren ist Amtsrichter als Ermittlungsrichter zuständig, der grds. nur auf
+Antrag der StA (Ausnahme bei Gefahr im Verzug) tätig werden darf, § 125 I StPO; nach
+Anklageerhebung liegt Zuständigkeit bei dem mit der Sache befassten Gericht (in der
+Revision beim Gericht, dessen Urteil angefochten wird), § 125 II 1; in dringenden Fällen
+kann auch Vorsitzende allein Haftbefehl erlassen, § 125 II 2
+• Materielle Vss.:
+o Dringender Tatverdacht, § 112 I 1 StPO
+o Haftgrund, § 112 I 1 StPO
+§ Flucht bzw. Fluchtgefahr; erforderlich sind konkrete Tatsachen, die es wahrscheinlich
+machen, dass der Beschuldigte sich dem Strafverfahren entziehen will; hohe
+Straferwartung allein genügt NICHT
+§ Verdunkelungsgefahr: zulässige Einwirkungen begründen NIE Verdunkelungsgefahr
+§ Verdacht eines Kapitaldelikts, § 112 III StPO: U-Haft auch ohne Vorliegen eines
+Haftgrundes iSv § 112 II möglich; verstößt gegen Verhältnismäßigkeitsgrds. laut
+BVerfG, muss zumindest abstrakte Flucht-/Verdunkelsgefahr bestehen
+§ Wiederholungsfahr, § 112a StPO
+o Verhältnismäßigkeit

@@ -1,0 +1,17 @@
+name: autocards
+channels:
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- black
+- genanki
+- ipython
+- langchain
+- openai
+- pre-commit
+- pypdf
+- pytest
+- python=3.10
+- rich
+- ruff
+- tiktoken
+

@@ -1,0 +1,17 @@
+Here are the pages from a {src_document_type}:
+
+### Start of the Source
+{chunk}
+### End of the Source
+Create {num_questions} pairs of question-answer pages in the following format:
+{{
+    "result": [
+        {{
+            "question": "<<Front of the flashcard>>",
+            "answer": "<<Back of the flashcard>>"
+        }}
+    ]
+}}
+Do not invent any information. Only use information from the source.
+{example}
+Respond only with valid JSON. Do not invent any information.

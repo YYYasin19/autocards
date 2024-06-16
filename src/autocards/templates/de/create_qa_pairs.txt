@@ -1,0 +1,17 @@
+Hier sind die Seiten aus einem {src_document_type}:
+
+### Start der Quelle
+{chunk}
+### Ende der Quelle
+Erstelle {num_questions} Paare an Frage-Antwort Seiten in folgendem Format:
+{{
+    "ergebnis": [
+        {{
+            "frage": "<<Vorderseite der Karteikarte>>",
+            "antwort": "<<Rückseite der Karteikarte>>"
+        }}
+    ]
+}}
+Erfinde keine Informationen. Nutze nur Informationen aus der Quelle.
+{example}
+Antworte nur mit validem JSON. Erfinde keine Informationen dazu.
